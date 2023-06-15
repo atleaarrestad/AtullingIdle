@@ -1,22 +1,18 @@
 import { LitElement, html, css } from "lit";
 import { customElement, property } from "lit/decorators.js";
-import { sharedStyles } from "../styles";
+import { sharedStyles } from "../../styles";
 
-@customElement("aa-sidebar")
-export class SiderBar extends LitElement {
-  @property() name = "World";
-
+@customElement("aa-placeholder")
+export class Placeholder extends LitElement {
   render() {
-    return html` <h1>i am sidebar</h1> `;
+    return html` <h1>HELLO I AM PLACEHOLDER!!!! LMAO I AM empty</h1> `;
   }
 
   static styles = [
     sharedStyles,
     css`
       :host {
-        background-color: var(--sidebar-primary);
-        width: 200px;
-        height: 100vh;
+        background-color: red;
       }
     `,
   ];

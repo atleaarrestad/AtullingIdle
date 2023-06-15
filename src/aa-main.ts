@@ -7,7 +7,14 @@ export class Main extends LitElement {
   @property() name = "World";
 
   render() {
-    return html` <h1>i am main screen</h1> `;
+    return html`
+      <h1>i am main screen</h1>
+      <hr />
+      <h2>Sjoggolade 200 grams</h2>
+      <h2>Red byul</h2>
+      <h2>bepis</h2>
+      <h2>You have played for 5600 hours!</h2>
+    `;
   }
 
   static styles = [
